@@ -1,0 +1,27 @@
+{
+  "name": "@aayu-tech/json-sign",
+  "version": "1.0.0",
+  "description": "A utility that can be used to generate a signature for a JSON object and to validate such a signature",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayu-technologies/json-sign.git"
+  },
+  "keywords": [
+    "json",
+    "signature"
+  ],
+  "author": "Aayu Tech <info@aayutechnologies.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aayu-technologies/json-sign/issues"
+  },
+  "homepage": "https://github.com/aayu-technologies/json-sign#readme",
+  "dependencies": {
+    "node-rsa": "1.1.1"
+  }
+}
