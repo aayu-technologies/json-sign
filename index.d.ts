@@ -7,14 +7,14 @@
  * @param jsonPayload JSON object to generate the signature for
  * @param privateKey RSA private key value to be used for the signing
  */
-declare function getSignatureByKey(jsonPayload: { [key: string]: any }, privateKey: string): string;
+export function getSignatureByKey(jsonPayload: { [key: string]: any }, privateKey: string): string;
 
 /**
  * Generates the signature for a JSON payload using the provided RSA private key
  * @param jsonPayload JSON object to generate the signature for
  * @param privateKeyFile RSA private key file to be used for the signing
  */
-declare function getSignatureByKeyFile(jsonPayload: { [key: string]: any }, privateKeyFile: string): string;
+export function getSignatureByKeyFile(jsonPayload: { [key: string]: any }, privateKeyFile: string): string;
 
 /**
  * Verifies a signature against a JSON payload using the provided RSA public key
@@ -22,7 +22,7 @@ declare function getSignatureByKeyFile(jsonPayload: { [key: string]: any }, priv
  * @param signature Signature to be verified
  * @param publicKey RSA public key value to be used for the verification
  */
-declare function verifySignatureByKey(jsonPayload: { [key: string]: any }, signature: string, publicKey: string): boolean;
+export function verifySignatureByKey(jsonPayload: { [key: string]: any }, signature: string, publicKey: string): boolean;
 
 /**
  * Verifies a signature against a JSON payload using the provided RSA public key
@@ -30,6 +30,6 @@ declare function verifySignatureByKey(jsonPayload: { [key: string]: any }, signa
  * @param signature Signature to be verified
  * @param publicKeyFile RSA public key file to be used for the verification
  */
-declare function verifySignatureByKeyFile(jsonPayload: { [key: string]: any }, signature: string, publicKeyFile: string): boolean;
+export function verifySignatureByKeyFile(jsonPayload: { [key: string]: any }, signature: string, publicKeyFile: string): boolean;
 
 

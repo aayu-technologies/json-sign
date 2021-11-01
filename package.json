@@ -1,6 +1,6 @@
 {
   "name": "@aayu-tech/json-sign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility that can be used to generate a signature for a JSON object and to validate such a signature",
   "main": "index.js",
   "types": "index.d.ts",
